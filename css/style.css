@@ -67,10 +67,29 @@ header .buttons button {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 112px;
-    height: 42px;
+    width: 108px;
+    height: 38px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.40);
+    background: rgba(0, 0, 0, 0.80);
     backdrop-filter: blur(5px);
+    border: none;
+}
+
+header .buttons .button-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #AB2FFE 0%, #40AFFD 70%);
+    width: 112px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.keel-calm {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg-1.png);
+    background-repeat: no-repeat;
+
 }
